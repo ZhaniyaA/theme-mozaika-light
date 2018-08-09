@@ -1,0 +1,283 @@
+/* Universal Styles */
+
+html {
+  font-size: 17px;
+  font-family: 'Cormorant', serif;
+}
+
+body {
+  background-color: #F8F8F9;
+}
+
+/*font-family: 'Cormorant', serif; - основной текст, меню
+font-family: 'Playfair Display SC', serif; - название
+font-family: 'Lobster', cursive; - заголовки*/
+
+/*.mobile,
+.image-container .mobile {
+  display: none;
+}*/
+
+a {
+  text-decoration: none;
+}
+
+p {
+  font-size: 1.1rem;
+  line-height: 2;
+  text-align: justify;
+  margin-bottom: 2rem;
+  color: #39304A;
+  opacity: 0.8;
+}
+
+header .vertical {
+  display: flex;
+  flex-direction: column;
+  width: 7rem;
+}
+
+.horizontal {
+  display: inline-flex;
+}
+
+.vertical div {
+  width: 7rem;
+  height: 3rem;
+}
+
+.horizontal div {
+  width: 5rem;
+  height: 1.5rem;
+}
+
+.color-one {
+  background-color: #F7C5C5;
+}
+
+.color-two {
+  background-color: #A9BCD0;
+}
+
+.color-three {
+  background-color: #FFFFFF;
+}
+
+.color-four {
+  background-color: #00A0A0;
+}
+
+.color-five {
+  background-color: #001B38;
+}
+
+/*-----Header---------------------------------------*/
+
+header {
+  display: inline-flex;
+  min-width: 100%;
+  margin: 0 0 8rem 0;
+}
+
+header .headline {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 2rem 2rem 2rem 3rem;
+}
+
+header .name {
+  margin-top: 4rem;
+  font-family: 'Playfair Display SC', serif;
+  font-weight: bold;
+  color: #00A0A0;
+  font-size: 1.7rem;
+}
+
+header .menu {
+  display: inline-flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 0;
+  height: 5rem;
+}
+
+header .menu a {
+  color: #001B38;
+  font-family: 'Lobster', cursive;
+  font-size: 1.3rem;
+  font-weight: bold;
+
+}
+
+header .menu a:hover {
+  border-bottom: 1px solid #17602C;
+  padding: 0.2rem 0.7rem;
+  transition: border 0.15s ease-out 0.1s;
+}
+
+header li {
+  display: inline-flex;
+  align-items: center;
+  margin-right: 2rem;
+
+}
+
+/*-----Sections---------------------------------------*/
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+
+div .overview {
+  width: 85%;
+  padding: 2rem 2rem 2rem 3rem;
+}
+
+.clearfix {
+  clear: both;
+}
+
+h2 {
+  color: #001B38;
+  font-family: 'Lobster', cursive;
+  font-style: italic;
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+  opacity: 0.9;
+}
+/*-----Section-1---------------------------------------*/
+#section1 .horizontal {
+  justify-content: flex-start;
+}
+/*-----Section-2---------------------------------------*/
+#section2 .horizontal,
+#section3 .horizontal {
+  justify-content: center;
+}
+/*-----Section-3---------------------------------------*/
+
+/*-----Section-4---------------------------------------*/
+#section4 .horizontal {
+  justify-content: flex-end;
+}
+/*-----Footer---------------------------------------*/
+
+footer {
+  display: inline-flex;
+  min-width: 100%;
+  margin: 0;
+
+}
+
+.contacting {
+  display: inline-flex;
+  width: 85%;
+  padding: 2rem 2rem 2rem 3rem;
+}
+
+
+footer .social-media {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+  margin-right: 3rem;
+}
+
+footer .social-media ul {
+  display: inline-flex;
+  margin-top: 1rem;
+}
+
+footer .social-media li {
+  margin-right: 1rem;
+}
+
+h3 {
+  color: #001B38;
+  font-family: 'Lobster', cursive;
+  font-size: 1.3rem;
+  opacity: 0.9;
+}
+
+footer .social-media a {
+  color: #00A0A0;
+}
+
+address {
+  display: flex;
+  flex-direction: column;
+  margin-right: 3rem;
+  margin-top: 1rem;
+}
+
+address p {
+  text-align: left;
+  margin-bottom: 1rem;
+  font-family: 'Cormorant', serif;
+  font-size: 0.9rem;
+  opacity: 1;
+  line-height: normal;
+  font-weight: bold;
+  color: #001B38;
+  opacity: 0.9;
+}
+
+address li {
+  text-align: left;
+  font-size: 0.9rem;
+  font-weight: bold;
+  line-height: 1.5;
+  color: #001B38;
+  opacity: 0.9;
+}
+
+address li a {
+  font-family: 'Cormorant', serif;
+  color: #001B38;
+  opacity: 0.9;
+}
+
+footer div.terms {
+  display: flex;
+  flex-direction: column;
+  margin-left: 1.5rem;
+  margin-bottom: 1.5rem;
+  margin-top: 1rem;
+}
+
+footer div.terms .name {
+  margin-bottom: 1rem;
+  font-family: 'Playfair Display SC', serif;
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #00A0A0;
+}
+
+footer span {
+  margin-top: 1rem;
+}
+
+footer span,
+footer .terms li,
+footer .terms a {
+  text-align: left;
+  font-family: 'Cormorant', serif;
+  font-size: 0.9rem;
+  color: #39304A;
+
+}
+
+.creator {
+  margin-top: 1rem;
+}
